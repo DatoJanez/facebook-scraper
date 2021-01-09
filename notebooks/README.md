@@ -4,4 +4,4 @@ step 1:
 
 Navigate to [Google Colab](https://pages.github.com/).
 
-![step 1](https://github.com/DatoJanez/facebook-scraper/blob/master/notebooks/image1.jpg?raw=true)
+![step 1](https://github.com/DatoJanez/facebook-scraper/blob/master/notebooks/Screenshot from 2021-01-08 23-13-41.png?raw=true)
