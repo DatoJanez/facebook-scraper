@@ -1,4 +1,4 @@
-# Collect public posts from Facebook using Colab and facebook-scraper package
+# Collect public posts from the Facebook using Colab and facebook-scraper package
 
 ### step 1:
 
