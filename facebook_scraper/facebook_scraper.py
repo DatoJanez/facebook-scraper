@@ -115,5 +115,5 @@ class FacebookScraper:
                 if remove_source:
                     post.pop('source', None)
                     
-                first_possible_pinned_post_passed = False
+                first_possible_pinned_post_passed = True
                 yield post
