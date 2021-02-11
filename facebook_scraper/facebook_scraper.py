@@ -109,7 +109,7 @@ class FacebookScraper:
             for post_element in page:
                 post = extract_post_fn(post_element, options=options, request_fn=self.get)
                 
-                if not first_possible_pinned_post_passed and days_limit and post["time"] < datetime.now() - timedelta(days=days_limit):
+                if first_possible_pinned_post_passed and days_limit and post["time"] < datetime.now() - timedelta(days=days_limit):
                     all_posts_collected = True
                     break
                 if remove_source:
